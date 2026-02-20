@@ -31,12 +31,20 @@ nav ul li a {
     font-weight: bold;
 }
 
-/* Hero-sektion */
+/* Hero-sektion med pizza_banner.png som bakgrund */
 .hero {
-    background: #2c3e50;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('pizza_banner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color: #fff;
-    padding: 60px 20px;
+    padding: 100px 20px; /* Mer padding för att visa mer av bilden */
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
 }
 
 /* Meny-sektion */
